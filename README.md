@@ -1,4 +1,4 @@
-# Project Name: DevRank
+# Project Name: DevRanker
 
 ### Project Description:
 
