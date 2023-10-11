@@ -4,7 +4,7 @@ Live: [https://dev-ranker.vercel.app/](https://dev-ranker.vercel.app/)
 
 ### Project Description:
 
-DevRanker is an open-source web application designed to assist developers in managing and ranking their projects based on activity and impact. 
+ContriQuest is an open-source web application designed to assist developers in managing and ranking their projects based on activity and impact. 
 It aims to provide a centralized platform for developers to track and showcase their work, collaborate with others, and gain recognition within the developer community.
 
 ### Key Features:
