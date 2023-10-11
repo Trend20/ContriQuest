@@ -1,4 +1,4 @@
-# Project Name: DevRanker
+# Project Name: ContriQuest
 
 Live: [https://dev-ranker.vercel.app/](https://dev-ranker.vercel.app/)
 
