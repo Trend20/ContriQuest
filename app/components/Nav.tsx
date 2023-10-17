@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const Navbar = () =>{
     return(
-        <div className='nav'>
-            <div className="logo">
+        <div className='nav flex justify-between p-10 w-full items-center'>
+            <div className="logo w-20 flex justify-center">
                 <Link href={'/'}><h1>ContriQuest</h1></Link>
             </div>
-            <div className="nav-links">
+            <div className="nav-links flex w-50 justify-between">
                 {
                     navData.map((item) =>(
-                        <Link href={item.itemLink} key={item.id}>{item.item}</Link>
+                        <Link href={item.itemLink} key={item.id} className="flex px-5 py-0">{item.item}</Link>
                     ))
                 }
             </div>
