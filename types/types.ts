@@ -4,3 +4,9 @@ export interface INav{
     id:number;
     itemLink: string;
 }
+
+export interface Steps{
+    icon: any;
+    stepName:string;
+    stepDescription: string;
+}
