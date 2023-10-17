@@ -1,5 +1,7 @@
 import {INav} from "@/types/types";
 
+
+// nav data
 export const navData: INav[] = [
     {
         item:'Home',
@@ -22,3 +24,5 @@ export const navData: INav[] = [
         itemLink:'/signup'
     }
 ]
+
+// footer data

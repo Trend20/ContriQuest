@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-    <main>
-      <h1>Hello ContriQuest</h1>
+    <main className="h-full">
+      <Hero />
     </main>
   )
 }
