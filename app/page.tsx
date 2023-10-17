@@ -4,6 +4,9 @@ export default function Home() {
   return (
     <main className="h-full">
       <Hero />
+      {/* <Hero />
+      <Hero />
+      <Hero /> */}
     </main>
   )
 }

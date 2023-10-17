@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import Navbar from './components/Nav'
 import Footer from './components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin']})
 
 export const metadata: Metadata = {
   title: 'ContriQuest',
@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
       <Navbar />
-        <main>{children}</main>
+        <main className='h-full'>{children}</main>
       <Footer />
       </body>
     </html>
