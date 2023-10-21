@@ -1,21 +1,37 @@
 'use-client';
 import {navData} from "@/data/app_data";
 import Link from "next/link";
-import logoImg from '../../public/assets/images/contr.png'
-import Image from 'next/image';
+import { TbMenuOrder} from 'react-icons/tb'
 
 const Navbar = () =>{
+    const actionLinks = [
+        {
+            linkName: 'Login',
+            linkUrl:'/login'
+        },
+        {
+            linkName: 'Register',
+            linkUrl:'/signup'
+        }
+    ]
     return(
-        <div className='nav flex justify-between p-5 w-full items-center bg-green-500'>
-            <div className="logo w-40 flex justify-center">
+        <div className='flex justify-between p-5 w-full items-center'>
+            <div className="flex items-center space-x-6 w-60">
                 <Link href={'/'}>
-                    <Image src={logoImg} alt={"logo"}></Image>
+                   <TbMenuOrder size='30'/>
                 </Link>
-            </div>
-            <div className="nav-links flex w-50 justify-between">
-                {
+                <div className="flex">
+                    {
                     navData.map((item) =>(
                         <Link href={item.itemLink} key={item.id} className="flex px-5 py-0">{item.item}</Link>
+                    ))
+                    }
+                </div>
+            </div>
+            <div className="flex w-36 space-x-6">
+                {
+                    actionLinks.map((link) =>(
+                        <Link key={link.linkUrl} href={link.linkUrl} className="flex w-48">{link.linkName}</Link>
                     ))
                 }
             </div>
