@@ -12,7 +12,7 @@ const Hero = () => {
           <p className='prose prose-user mt-6 text-2xl text-gray-500 leading-8 w-3/4'>Join ContriQuest and see where you stand among the top developers in the industry.</p>
           <Link href='/' className='rounded w-32 bg-amber-700 font-bold flex justify-center items-center p-3 text-white mt-6 hover:bg-amber-800'>Join now</Link>
         </div>
-        <div className="flex max-w-2xl">
+        <div className="flex max-w-4xl">
           <Image src={heroImg} alt='hero_img' className='rounded-l-lg'/>
         </div>
     </div>
