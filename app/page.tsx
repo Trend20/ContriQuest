@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="h-full">
       <Hero />
-      <Process />
+      {/* <Process /> */}
       {/* <Showcase /> */}
     </main>
   )

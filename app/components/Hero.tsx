@@ -1,14 +1,19 @@
 'use client'
 import React from 'react'
+import Image from 'next/image';
+import heroImg from '../../public/assets/images/hero.jpeg'
+import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <div className='w-full flex flex-col items-center max-h-80 justify-center pt-72'>
-      <h1 className='text-5xl'>Welcome to <span className='text-green-400'>ContriQuest</span></h1>
-      <p className='text-lg'>Your Hub for Developer Projects and Achievements.</p>
-      <div className="flex justify-between w-auto">
-          <button className="bg-green-500 p-3 mt-5 rounded-br-lg hover:bg-transparent border-white border-2">Explore Projects</button>
-          <button className="p-3 mt-5 border-spacing-1 rounded-tl-lg border-2 border-white ml-4 hover:bg-green-500 rounded-br-lg">Create Your Profile</button>
+    <div className='w-full flex pt-40 justify-between'>
+        <div className="flex flex-col mt-6 px-16 w-1/2">
+          <h1 className='text-7xl font-black tracking-tight text-gray-900'>Rank Developers Based on Project Impact and Activity of their projects.</h1>
+          <p className='prose prose-user mt-6 text-2xl text-gray-500 leading-8 w-3/4'>Join DevRanker and see where you stand among the top developers in the industry.</p>
+          <Link href='/' className='rounded w-32 bg-amber-700 font-bold flex justify-center items-center p-3 text-white mt-6 hover:bg-amber-800'>Join now</Link>
+        </div>
+        <div className="flex max-w-2xl">
+          <Image src={heroImg} alt='hero_img' className='rounded-l-lg'/>
         </div>
     </div>
   )
