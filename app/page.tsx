@@ -1,5 +1,6 @@
 import Compare from "./components/Compare";
 import Hero from "./components/Hero";
+import Join from "./components/Join";
 import MeasureImpact from "./components/MeasureImpact";
 import Process from "./components/Process";
 import Showcase from "./components/Showcase";
@@ -14,6 +15,7 @@ export default function Home() {
       <StayActive />
       <Compare />
       <Testimonials />
+      <Join />
     </main>
   )
 }
