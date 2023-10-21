@@ -4,6 +4,7 @@ import MeasureImpact from "./components/MeasureImpact";
 import Process from "./components/Process";
 import Showcase from "./components/Showcase";
 import StayActive from "./components/StayActive";
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
@@ -12,8 +13,7 @@ export default function Home() {
       <MeasureImpact />
       <StayActive />
       <Compare />
-      {/* <Process /> */}
-      {/* <Showcase /> */}
+      <Testimonials />
     </main>
   )
 }
