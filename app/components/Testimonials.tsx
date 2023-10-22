@@ -6,9 +6,7 @@ const Testimonials = () => {
   return (
     <div className='flex bg-yellow-800 flex-col justify-center items-center py-32 h-84 mt-48'>
       <p className='text-white text-center text-4xl w-1/2 font-bold'>
-        <blockquote>
         I love the competitive aspect of ContriQuest. It motivates me to continuously improve my coding skills and stay active in the industry.
-        </blockquote>
       </p>
       <span className='flex space-x-6 w-40 items-center mt-5'>
         <Image src={testImg} alt='test-image' className="h-10 w-10 rounded-full border border-white p-1"/>
