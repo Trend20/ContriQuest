@@ -10,7 +10,7 @@ const Navbar = () =>{
     const actionLinks = [
         {
             linkName: 'Get Started',
-            linkUrl:'/login'
+            linkUrl:'/waitlist'
         },
     ]
     return(
