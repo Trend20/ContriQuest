@@ -1,59 +1,122 @@
 # Contribution Guide to Contriquest.
 
-## Issues & Pull Requests (not for Profiles)
+We would ❤️ it if you contributed to the project and helped make ContriQuest even better. We will make sure that contributing to ContriQuest is easy, enjoyable, and educational for anyone and everyone. All contributions are welcome, including features, issues, documentation, guides, and more.
 
-### Creating an Issue
+## Got a question?
 
-Before **creating** an Issue for `features`/`bugs`/`improvements` please follow these steps:
+You can ask questions, consult with more experienced ContriQuest users, and discuss ContriQuest-related topics in the our [Discord channel](https://amplication.com/discord).
 
-> _Note: this does not apply to creating/editing your profile_
+## Found a bug?
 
-1. search existing Issues before creating a new issue (has someone raised this already)
-1. if it doesn't exist create a new issue giving as much context as possible (please select the correct Issue type, for example `bug` or `feature`)
-1. all Issues are automatically given the label `status: waiting for triage` and are automatically locked so no comments can be made
-1. if you wish to work on the Issue once it has been triaged and label changed to `status: ready for dev`, please include this in your Issue description
+If you find a bug in the source code, you can help us by [submitting an issue](https://github.com/amplication/amplication/issues/new?assignees=&labels=type%3A%20bug&template=bug_report.md&title=) to our GitHub Repository. Even better, you can submit a Pull Request with a fix.
 
-### Working on an Issue (get it assigned to you)
+## Missing a feature?
 
-Before working on an existing Issue please follow these steps:
+You can request a new feature by [submitting an issue](https://github.com/amplication/amplication/issues/new?assignees=&labels=type%3A%20feature%20request&template=feature_request.md&title=) to our GitHub Repository.
 
-1. only ask to be assigned 1 issue at a time
-1. look out for the Issue label `status: ready for dev` (if it does not have this label, your work might not be accepted)
-1. comment asking for the issue to be assigned to you (do not tag maintainers on GitHub or Discord as all maintainers receive your comment notifications)
-1. after the Issue is assigned to you, you can start working on it
-1. **only** start working on this Issue (and open a Pull Request) when it has been assigned to you - this will prevent confusion, multiple people working on the same issue and work not being used
-1. do **not** enable GitHub Actions on your fork
-1. reference the Issue in your Pull Request (for example `closes #123`)
+If you'd like to implement a new feature, it's always good to be in touch with us before you invest time and effort, since not all features can be supported.
 
-> Notes:
->
-> - it is not sustainable for maintainers to review historical comments asking for assignments before the Issue label `status: ready for dev` was added; only requests for assignment of an Issue after this label has been added will be considered
-> - check the `Assignees` box at the top of the page to see if the issue has been assigned to someone else before requesting this be assigned to you
-> - if an Issue is unclear, ask questions to get more clarity before asking to have the Issue assigned to you
-> - only request to be assigned an Issue if you know how to work on it
-> - an Issue can be assigned to multiple people, if you all agree to collaborate on the issue (the Pull Request can contain commits from different collaborators)
-> - any Issues that have no activity after 2 weeks will be unassigned and re-assigned to someone else
+- For a Major Feature, first open an issue and outline your proposal. This will let us coordinate efforts, prevent duplication of work, and help you craft the change so that it's successfully integrated into the project.
+- Small Features can be crafted and directly [submitted as a Pull Request](#submit-pr).
 
-## Reviewing Pull Requests
+## What do you need to know to help?
 
-We welcome everyone to review Pull Requests, it is a great way to learn, network and support each other.
+If you want to help out with a code contribution, our project uses the following stack:
 
-### DOs
+### Server-side
 
-- be kind and respectful, we use inclusive, gender neutral language (for example `they/them` instead of `guy/man`)
-- use inline comments to explain your suggestions
-- use inline suggestions to propose changes
+<!-- - [Node.JS](https://nodejs.org/) -->
+<!-- - [TypeScript](https://www.typescriptlang.org/docs) -->
+<!-- - [NestJS](https://docs.nestjs.com/) -->
+- [Prisma](https://www.prisma.io/docs/) (with [MongoDB](https://www.mongodb.com/))
+<!-- - [GraphQL API](https://docs.nestjs.com/graphql/quick-start)
+- [Jest](https://docs.nestjs.com/fundamentals/testing) (for testing) -->
 
-### DON'Ts
+### Client-side
 
-- do not be rude, disrespectful or aggressive
-- do not repeat feedback, this creates more noise than value (check the existing conversation), use GitHub reactions if you agree/disagree with a comment
-- do not blindly approve pull requests to improve your GitHub contributors graph
+- [NextJS](https://nextjs.org/)
+<!-- - [TypeScript](https://www.typescriptlang.org/docs)
+- [Apollo Client](https://www.apollographql.com/docs/react/) -->
 
----
+If you don't feel ready to make a code contribution yet, no problem! You can also check out the [documentation issues](https://github.com/amplication/amplication/labels/type%3A%20docs).
 
-Please refer to the `Contributing` section of the website's documentation for more details https://biodrop.io/docs
+# <a name="submit-pr"></a> How do I make a code contribution?
 
----
+## Open to community
 
-<!-- > Note: Persistent non-compliance with this Contributing Guide can lead to a warning and/or ban under the [Code of Conduct](https://github.com/EddieHubCommunity/BioDrop/blob/main/CODE_OF_CONDUCT.md) -->
+You can check all the issues that are open for community contributions. Check [here](https://github.com/amplication/amplication/issues?q=is%3Aopen+is%3Aissue+label%3A%22open+to+community%22).
+
+## Good first issues
+
+Are you new to open source contribution? Wondering how contributions work in our project? Here's a quick rundown.
+
+Find an issue that you're interested in addressing, or a feature that you'd like to add.
+
+Are you new to open source contribution? Wondering how contributions work in our project? Here's a quick rundown.
+
+```sh
+git commit -m "<type>(<package>): <subject>"
+```
+
+## Step 8: Push the changes to the remote repository
+
+Push the changes to the remote repository using:
+
+```sh
+git push origin branch-name-here
+```
+
+## Step 9: Create Pull Request
+
+In GitHub, do the following to submit a pull request to the upstream repository:
+
+1.  Give the pull request a title and a short description of the changes made following the template. Include also the issue or bug number associated with your change. Explain the changes that you made, any issues you think exist with the pull request you made, and any questions you have for the maintainer.  <br/> ⚠️ **Make sure your pull request target the `next` branch.**
+ 
+  > Pull request title should be in the form of `<type>(<package>): <subject>` as per commit messages.
+Remember, it's okay if your pull request is not perfect (no pull request ever is). The reviewer will be able to help you fix any problems and improve it!
+
+2.  Wait for the pull request to be reviewed by a maintainer.
+
+3.  Make changes to the pull request if the reviewing maintainer recommends them.
+
+Celebrate your success after your pull request is merged :-)
+
+## Git Commit Messages
+
+We structure our commit messages like this:
+
+```
+<type>(<package>): <subject>
+```
+
+Example
+
+```
+fix(server): missing entity on init
+```
+
+### Types:
+
+- **feat**: A new feature
+- **fix**: A bug fix
+- **docs**: Changes to the documentation
+- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.)
+- **refactor**: A code change that neither fixes a bug nor adds a feature
+- **perf**: A code change that improves performance
+- **test**: Adding missing or correcting existing tests
+- **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
+
+### Packages:
+
+- **server**
+- **client**
+- **data-service-gen**
+
+## Code of conduct
+
+Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
+
+[Code of Conduct](https://github.com/amplication/amplication/blob/master/CODE_OF_CONDUCT.md)
+
+Our Code of Conduct means that you are responsible for treating everyone on the project with respect and courtesy.
+
