@@ -4,15 +4,14 @@ We would ❤️ it if you contributed to the project and helped make ContriQuest
 
 ## Got a question?
 
-You can ask questions, consult with more experienced ContriQuest users, and discuss ContriQuest-related topics in the our [Discord channel](https://amplication.com/discord).
-
+You can ask questions, shoot me an [Email](enockomondi305@gmail.com), and discuss ContriQuest-related topics.
 ## Found a bug?
 
-If you find a bug in the source code, you can help us by [submitting an issue](https://github.com/amplication/amplication/issues/new?assignees=&labels=type%3A%20bug&template=bug_report.md&title=) to our GitHub Repository. Even better, you can submit a Pull Request with a fix.
+If you find a bug in the source code, you can help us by [submitting an issue](https://github.com/Trend20/ContriQuest/issues/new) to our GitHub Repository. Even better, you can submit a Pull Request with a fix.
 
 ## Missing a feature?
 
-You can request a new feature by [submitting an issue](https://github.com/amplication/amplication/issues/new?assignees=&labels=type%3A%20feature%20request&template=feature_request.md&title=) to our GitHub Repository.
+You can request a new feature by [submitting an issue](https://github.com/Trend20/ContriQuest/issues/new) to our GitHub Repository.
 
 If you'd like to implement a new feature, it's always good to be in touch with us before you invest time and effort, since not all features can be supported.
 
@@ -110,7 +109,8 @@ fix(server): missing entity on init
 
 - **server**
 - **client**
-- **data-service-gen**
+
+[//]: # (- **data-service-gen**)
 
 ## Code of conduct
 
