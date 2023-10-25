@@ -24,26 +24,24 @@ If you want to help out with a code contribution, our project uses the following
 
 ### Server-side
 
-<!-- - [Node.JS](https://nodejs.org/) -->
-<!-- - [TypeScript](https://www.typescriptlang.org/docs) -->
-<!-- - [NestJS](https://docs.nestjs.com/) -->
+- [Node.JS](https://nodejs.org/)
+- [TypeScript](https://www.typescriptlang.org/docs)
+- [NestJS](https://docs.nestjs.com/)
 - [Prisma](https://www.prisma.io/docs/) (with [MongoDB](https://www.mongodb.com/))
-<!-- - [GraphQL API](https://docs.nestjs.com/graphql/quick-start)
-- [Jest](https://docs.nestjs.com/fundamentals/testing) (for testing) -->
+- [Jest](https://docs.nestjs.com/fundamentals/testing) (for testing)
 
 ### Client-side
 
 - [NextJS](https://nextjs.org/)
-<!-- - [TypeScript](https://www.typescriptlang.org/docs)
-- [Apollo Client](https://www.apollographql.com/docs/react/) -->
+- [TypeScript](https://www.typescriptlang.org/docs)
 
-If you don't feel ready to make a code contribution yet, no problem! You can also check out the [documentation issues](https://github.com/amplication/amplication/labels/type%3A%20docs).
+If you don't feel ready to make a code contribution yet, no problem! You can also check out the [readme here](https://github.com/Trend20/ContriQuest/blob/main/README.md) to understand how the project works.
 
 # <a name="submit-pr"></a> How do I make a code contribution?
 
 ## Open to community
 
-You can check all the issues that are open for community contributions. Check [here](https://github.com/amplication/amplication/issues?q=is%3Aopen+is%3Aissue+label%3A%22open+to+community%22).
+You can check all the issues that are open for community contributions.
 
 ## Good first issues
 
