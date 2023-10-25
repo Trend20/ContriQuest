@@ -15,7 +15,7 @@ This platform can also be used by `employers` to easily find `developers` who be
 
 ## Tech Stack
 
-`ContriQuest` is build using the following technologies:
+`ContriQuest` is built using the following technologies:
 
 
 ### Server-side
