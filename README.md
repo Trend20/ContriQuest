@@ -1,6 +1,8 @@
-# Project Name: ContriQuest
+![user-form](public/assets/images/logo.png)
 
-Live: [https://dev-ranker.vercel.app/](https://dev-ranker.vercel.app/)
+<!-- # Project Name: ContriQuest -->
+
+Live: [https://contriquest.vercel.app/](https://contriquest.vercel.app/)
 
 ### Project Description:
 

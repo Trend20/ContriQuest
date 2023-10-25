@@ -1,12 +1,8 @@
 'use client';
-import { usePathname } from "next/navigation";
-// import {navData} from "@/data/app_data";
 import Link from "next/link";
 import { GiUpgrade} from 'react-icons/gi'
 
 const Navbar = () =>{
-    const currentRoute = usePathname();
-    // console.log(currentRoute);
     const actionLinks = [
         {
             linkName: 'Get Started',
@@ -20,13 +16,6 @@ const Navbar = () =>{
                    <GiUpgrade size='40' fill='#fff' className="flex items-center justify-center p-1 bg-black rounded-full"/>
                    <p className="flex text-2xl font-bold">ContriQuest</p>
                 </Link>
-                {/* <div className="flex">
-                    {
-                    navData.map((item) =>(
-                        <Link href={item.itemLink} key={item.id} className="flex px-5 py-0">{item.item}</Link>
-                    ))
-                    }
-                </div> */}
             </div>
             <div className="flex w-36 space-x-6 items-center">
                 {
