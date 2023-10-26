@@ -7,7 +7,7 @@ Live: [https://contriquest.vercel.app/](https://contriquest.vercel.app/)
 # ContriQuest
 
 `ContriQuest` is an open-source web application platform that ranks developers based on their projects' activity and impact. 
-It aims to provide a centralized platform for developers `to track and showcase their work`, `collaborate with others`, `compare themselves to top developers` and g`ain recognition within the developer community`.
+It aims to provide a centralized platform for developers `to track and showcase their work`, `collaborate with others`, `compare themselves to top developers` and `gain recognition within the developer community`.
 
 This platform can also be used by `employers` to easily find `developers` who best suits their companies.
 
