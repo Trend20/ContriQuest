@@ -4,7 +4,7 @@ const WaitList = () => {
   return (
     <div className='flex items-center flex-col justify-center m-auto w-1/2 px-10 py-10 mt-28'>
       <h5 className='text-5xl font-black tracking-tight text-gray-900 w-3/4 text-center leading-normal'>Rank Developers Based on Project Impact and Activity.</h5>
-      <p className='prose prose-user mt-6 text-xl text-gray-500 leading-8 w-1/2 text-center'>Join ContriQuest and see where you stand among the top developers in the industry.</p>
+      <p className='prose prose-user mt-6 text-xl text-gray-500 leading-8 w-3/4 text-center'>Join ContriQuest and see where you stand among the top developers in the industry.</p>
 
       <div className="flex flex-col items-center mt-32 w-full">
         <h3 className='font-bold text-xl'>Join the waitlist</h3>
